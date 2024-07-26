@@ -1,0 +1,51 @@
+.form-create-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form-create-box {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.form-creation-section,
+.form-editor-section {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-creation-section {
+  border-right: 1px solid #ddd;
+}
+
+.edit-icon {
+  cursor: pointer;
+  color: #007bff;
+  margin-left: 8px;
+}
+
+.input-container {
+  width: 100%;
+  max-width: 300px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center .btn {
+  margin: 0 10px;
+}
